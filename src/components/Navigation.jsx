@@ -81,7 +81,7 @@ const Navigation = () => {
               <motion.img
                 src={logo}
                 alt="Innosify Logo"
-                className="w-8 h-8 sm:w-10 sm:h-10"
+                className="w-10 h-10 sm:w-14 sm:h-14"
                 animate={{ rotate: logoHovered ? 360 : 0 }}
                 transition={{ duration: 0.6, ease: "easeInOut" }}
               />
